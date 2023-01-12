@@ -1,0 +1,15 @@
+io.cucumber.junit.UndefinedStepException: The step 'User Should enter "<UserName>" and "<Password>" and click on LogInButton' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User Should enter {string} and {string} and click on LogInButton")
+public void user_should_enter_and_and_click_on_log_in_button(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User Should be able to Navigate HomePage")
+public void user_should_be_able_to_navigate_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

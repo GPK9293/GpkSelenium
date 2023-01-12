@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM_Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.OrangeHRM.OrangeHRMLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OrangeHRM_Login"/>
+          <include name="setup"/>
+          <include name="OrangeHRM_LoginPageAndTitleValidation"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.OrangeHRMLogin -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRM_Application] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM_Application_POM">
+<test name="LoginTest">
+<classes>
+<class name="com.OrangeHRM_ApplicationTestCases_PagesTest.OrangeHRM_ApplicationLoginPageTest"/>
+</classes>
+</test>
+
+
+<test name="HomePage_Test">
+<classes>
+<class name="com.OrangeHRM_ApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest"/>
+</classes>
+</test>
+
+
+</suite>

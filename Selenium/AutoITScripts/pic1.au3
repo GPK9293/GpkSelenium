@@ -1,0 +1,5 @@
+ControlFocus("Open","","")
+Sleep(10000)
+ControlSend("Open","","Edit1","E:\GPK_WorkSpace\Selenium\UploadPictures\photo-1526772662000-3f88f10405ff.jpg")
+Sleep(10000)
+ControlClick("Open","","Button1")

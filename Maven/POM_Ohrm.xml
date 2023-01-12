@@ -1,0 +1,7 @@
+<suitename="OrangeHRM_Application_POM">
+<test name="LoginTest">
+<classes>
+<class name="com.OrangeHRRMApplicationPages.OrangeHRMApplicationLoginPage"/>
+</classes>
+</test>
+</suite>
